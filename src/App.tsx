@@ -19,7 +19,7 @@ function App() {
     <>
     <NavBar/>
     <Hero/>
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<div className="w-full mx-auto items-center text-center"><span className="loading loading-spinner text-neutral"></span></div>}>
 
     <TStacks technologiesPromise ={technologiesPromise}/>
     </Suspense>
