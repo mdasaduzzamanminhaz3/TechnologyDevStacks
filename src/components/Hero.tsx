@@ -1,8 +1,8 @@
 import HeroImg from "../assets/banner-stack.png";
 const Hero = () => {
   return (
-    <section className="container mx-auto">
-      <div className="flex items-center justify-between px-4 py-4">
+    <section className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="flex items-center justify-between py-4">
         <div className="flex flex-col w-1/2">
           <h1 className="text-4xl font-bold">
             Build Your Ideal <br /><span className="bg-gradient-to-r from-orange-600 to-purple-600 bg-clip-text text-transparent">Development Stack </span>

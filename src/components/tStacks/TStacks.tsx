@@ -30,7 +30,7 @@ const TStacks = ({ technologiesPromise }: TechnologyProps) => {
   };
 
   return (
-    <section className="container mx-auto">
+    <section className="container mx-auto px-4 sm:px-6 lg:px-8">
       <h3 className="mt-5 text-start text-3xl font-bold">
         Explore the{" "}
         <span className="bg-gradient-to-r from-purple-500 to-pink-600 bg-clip-text text-transparent">

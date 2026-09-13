@@ -4,7 +4,8 @@ import { RxCross2, RxHamburgerMenu } from "react-icons/rx";
 const NavBar = () => {
     const [isMenuOpen, setIsMenuOpen] =useState(false);
     return (
-        <nav className="container mx-auto px-6 py-3 bg-gray-50 sticky top-0">
+        <nav className="w-full px-6 py-3 bg-gray-50 sticky top-0">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-3">
             <div className="flex justify-between items-center">
                 <div><img className="w-32 md:w-36" src={NavLogo} alt="" /></div>
                 <ul className="hidden md:flex gap-7 text-gray-700">
@@ -71,7 +72,7 @@ const NavBar = () => {
         )}
 
      
-
+</div>
 
         </nav>
     );
