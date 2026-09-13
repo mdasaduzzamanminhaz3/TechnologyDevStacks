@@ -43,7 +43,7 @@ const TStacks = ({ technologiesPromise }: TechnologyProps) => {
       </p>
 
       <div className="mt-8 flex items-start justify-between">
-        <div className="grid w-3/4 grid-cols-3 gap-4">
+        <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-2 lg:w-3/4 lg:grid-cols-3">
           {technologies.map((technology) => (
             <StacksCard
               key={technology.id}
