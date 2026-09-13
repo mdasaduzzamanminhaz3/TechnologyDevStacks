@@ -1,7 +1,7 @@
 import NavLogo from "../assets/logo-text.png"
 const NavBar = () => {
     return (
-        <nav className="container mx-auto px-6 py-3 bg-gray-50 sticky">
+        <nav className="container mx-auto px-6 py-3 bg-gray-50 sticky top-0">
             <div className="flex justify-between items-center">
                 <div><img src={NavLogo} alt="" /></div>
                 <ul className="flex gap-7 text-gray-700">

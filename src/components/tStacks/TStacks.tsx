@@ -31,7 +31,7 @@ const TStacks = ({ technologiesPromise }: TechnologyProps) => {
 
   return (
     <section className="container mx-auto">
-      <h3 className="mt-10 text-start text-3xl font-bold">
+      <h3 className="mt-5 text-start text-3xl font-bold">
         Explore the{" "}
         <span className="bg-gradient-to-r from-purple-500 to-pink-600 bg-clip-text text-transparent">
           Technologies
@@ -54,7 +54,7 @@ const TStacks = ({ technologiesPromise }: TechnologyProps) => {
           ))}
         </div>
 
-        <div className="rounded-xl border border-gray-200 bg-white p-3 shadow-sm transition hover:shadow-md">
+        <div className="rounded-xl border border-gray-200 bg-white p-3 shadow-sm transition hover:shadow-md sticky top-20">
           <h6 className="text-xl font-bold">Your Stack</h6>
 
           <p className="text-gray-700">
