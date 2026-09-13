@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="mt-20 border-t border-gray-200 bg-white">
       <div className="container mx-auto px-6 py-10">
 
-        <div className="grid grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
             <div className="flex items-center gap-2">
                <img src={BrandLogo} alt="" />

@@ -42,7 +42,7 @@ const TStacks = ({ technologiesPromise }: TechnologyProps) => {
         Pick one technology per category to build your ideal stack.
       </p>
 
-      <div className="mt-8 flex items-start justify-between">
+      <div className="mt-8 flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
         <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-2 lg:w-3/4 lg:grid-cols-3">
           {technologies.map((technology) => (
             <StacksCard
